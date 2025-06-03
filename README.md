@@ -5,7 +5,6 @@
 [![ML](https://img.shields.io/badge/Machine%20Learning-XGBoost%20|%20SVC%20|%20LogisticRegression-orange)](https://scikit-learn.org/)
 
 A machine learning project 🚀 that predicts wine quality (0-10 scale) based on physicochemical properties. Achieves 82% accuracy using XGBoost classifier. 🍇
-![📊 Null Values Check](https://github.com/Adityabaan/Wine-Quality-Predictor/blob/d0a810e8af7689dd5b5a85ce3070be3329e6be25/Sum%20of%20null%20values%20column%20wise.png)
 
 ## Features
 - **🔍 Comprehensive EDA** with histograms, correlation heatmaps, and feature analysis

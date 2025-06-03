@@ -17,4 +17,65 @@ A machine learning project that predicts wine quality (0-10 scale) based on phys
 
 ## Installation
 1. Clone repository:
+   git clone https://github.com/yourusername/wine-quality-predictor.git
+   cd wine-quality-predictor
+
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+
+## Usage
+## Sample training code
+from xgboost import XGBClassifier
+from sklearn.preprocessing import MinMaxScaler
+
+## Load and preprocess data
+df = pd.read_csv('winequality.csv')
+... [preprocessing steps]
+
+## Train model
+model = XGBClassifier()
+model.fit(xtrain, ytrain)
+
+## Dataset
+Contains 11 fundamental wine features:
+- Fixed acidity
+- Volatile acidity
+- Citric acid
+- Residual sugar
+- Chlorides
+- Free sulfur dioxide
+- Density
+- pH
+- Sulphates
+- Alcohol
+- Quality (target)
+
+## Model Performance
+| Model                | Training AUC | Validation AUC |
+|----------------------|--------------|----------------|
+| Logistic Regression  | 0.70         | 0.69           |
+| XGBoost              | 0.98         | 0.80           |
+| SVM (RBF Kernel)     | 0.72         | 0.71           |
+
+**Best Model (XGBoost) Classification Report:**
+          precision    recall  f1-score   support
+       0       0.76      0.74      0.75       474
+       1       0.86      0.86      0.86       826
+accuracy                           0.82      1300
+
+## Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Open Pull Request
+
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Credits
+- **Adityabaan Tripathy** - Initial work
+- Wine Quality Dataset - [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wine+quality)
 

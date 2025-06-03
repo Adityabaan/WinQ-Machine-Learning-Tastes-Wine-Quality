@@ -7,6 +7,6 @@ This dataset has the fundamental features which are responsible for affecting th
 🔸Numpy library used for working with arrays.
 🔸Seaborn/Matplotlib are used for data visualisation purpose.
 🔸Sklearn - This module contains multiple libraries having pre-implemented functions to perform tasks from data preprocessing to model development and evaluation.
-🔸XGBoost - This contains the eXtreme Gradient Boosting machine learning algorithm which is one of the algorithms which helps us to achieve high accuracy on predictions
+🔸XGBoost - This contains the eXtreme Gradient Boosting machine learning algorithm which is one of the algorithms which helps us to achieve high accuracy on predictions.
 
 Now let's look at the first five rows of the dataset:

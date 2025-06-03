@@ -50,10 +50,11 @@ Each feature provides unique insight into the chemistry and characteristics of t
 
 Explore key statistics such as **mean, standard deviation, min, max, and quartiles** for each wine feature. These insights help you understand data distribution, variability, and potential outliers in your dataset. 🧮
 
+
 ## 🔍 Exploratory Data Analysis (EDA) 📊
 
-EDA is an approach to analyzing data using visual techniques. It helps you discover trends, patterns, and check assumptions through statistical summaries and graphical representations. 🕵️‍♂️
-Let’s start by checking the number of null values in each column of the dataset to ensure data quality and completeness. 🧐
+EDA is an approach to analyzing data using visual techniques. It helps you discover trends, patterns, and check assumptions through statistical summaries and graphical representations. 🕵️‍♂️ Let’s start by checking the number of null values in each column of the dataset to ensure data quality and completeness. 🧐
+
 ![Image Alt](https://github.com/Adityabaan/Wine-Quality-Predictor/blob/d0a810e8af7689dd5b5a85ce3070be3329e6be25/Sum%20of%20null%20values%20column%20wise.png)
 
 
@@ -62,9 +63,11 @@ Let’s start by checking the number of null values in each column of the datase
 
 ![📊 Histograms](https://github.com/Adityabaan/Wine-Quality-Predictor/blob/d0a810e8af7689dd5b5a85ce3070be3329e6be25/Histograms%20for%20the%20columns%20containing%20continuous%20data.png)
 
+
 ## 🍇 Count Plot for Each Quality of Wine
 
 ![🍷 Count Plot](https://github.com/Adityabaan/Wine-Quality-Predictor/blob/d0a810e8af7689dd5b5a85ce3070be3329e6be25/Count%20plot%20for%20each%20quality%20of%20wine.png)
+
 
 ## 🔥 Heatmap for Highly Correlated Features
 

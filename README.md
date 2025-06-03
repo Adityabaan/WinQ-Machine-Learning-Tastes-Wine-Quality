@@ -25,6 +25,7 @@ To handle and analyze the wine quality dataset, the following Python libraries a
 - **🤖 scikit-learn (sklearn)**: For machine learning tasks—preprocessing, modeling, and evaluation.
 - **🚀 XGBoost**: For advanced boosting-based machine learning.
 
+https://github.com/Adityabaan/Wine-Quality-Predictor/blob/6eaceeab11ea6a98ed65528f17a0d4c4c16b53fe/First%20Five%20rows%20of%20dataset.png
 ## Installation
 1. Clone repository:
    git clone https://github.com/yourusername/wine-quality-predictor.git
@@ -60,6 +61,10 @@ Contains 11 fundamental wine features:
 - Sulphates
 - Alcohol
 - Quality (target)
+
+## First Five Rows of the Dataset
+![Image Alt](https://github.com/Adityabaan/Wine-Quality-Predictor/blob/6eaceeab11ea6a98ed65528f17a0d4c4c16b53fe/First%20Five%20rows%20of%20dataset.png)
+
 
 ## Model Performance
 | Model                | Training AUC | Validation AUC |

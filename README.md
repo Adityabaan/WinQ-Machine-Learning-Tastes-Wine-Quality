@@ -15,11 +15,20 @@ A machine learning project that predicts wine quality (0-10 scale) based on phys
 - **Model evaluation** using ROC-AUC scores and classification reports
 - **Clean codebase** with PEP8 compliance and modular structure
 
+## 📚 Importing Libraries and Dataset
+
+To handle and analyze the wine quality dataset, the following Python libraries are essential:
+
+- **🐼 Pandas**: For data manipulation and analysis.
+- **🔢 NumPy**: For working with arrays and matrices.
+- **📊 Seaborn/Matplotlib**: For creating beautiful data visualizations.
+- **🤖 scikit-learn (sklearn)**: For machine learning tasks—preprocessing, modeling, and evaluation.
+- **🚀 XGBoost**: For advanced boosting-based machine learning.
+
 ## Installation
 1. Clone repository:
    git clone https://github.com/yourusername/wine-quality-predictor.git
    cd wine-quality-predictor
-
 
 2. Install dependencies:
    pip install -r requirements.txt
@@ -31,7 +40,7 @@ from xgboost import XGBClassifier
 from sklearn.preprocessing import MinMaxScaler
 
 ## Load and preprocess data
-df = pd.read_csv('winequality.csv')
+df = pd.read_csv('winequalityN.csv')
 ... [preprocessing steps]
 
 ## Train model
@@ -64,6 +73,7 @@ Contains 11 fundamental wine features:
        0       0.76      0.74      0.75       474
        1       0.86      0.86      0.86       826
 accuracy                           0.82      1300
+
 
 ## Contributing
 1. Fork the repository

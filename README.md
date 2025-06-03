@@ -128,6 +128,13 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
+## Code in Place 2025
+
+![Image Alt](https://github.com/Adityabaan/Wine-Quality-Predictor/blob/ba70f424e176c09046377a7ff5789f2999215cb2/stanford.png)
+
+This project has been created as my final submission for Stanford’s **Code in Place 2025**! 🚀
+The project applies the foundational Python and data science skills learned in Code in Place to a real-world machine learning challenge: **predicting wine quality based on physicochemical features**. The program uses a well-known dataset to train and evaluate several machine learning models, focusing on **clean code, data analysis, and model comparison**.
+
 ## 🙌 Credits
 
 - **Adityabaan Tripathy** - Initial work
